@@ -1,0 +1,28 @@
+{
+    "name": "wpforms-honeypot",
+    "version": "0.0.0-development",
+    "description": "Allows you to add a custom honeypot field to WPForms to help combat spam.",
+    "main": "gruntfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eric-mathison/wpforms-honeypot.git"
+    },
+    "author": "Eric Mathison",
+    "license": "GPL-2.0-or-later",
+    "bugs": {
+        "url": "https://github.com/eric-mathison/wpforms-honeypot/issues"
+    },
+    "homepage": "https://github.com/eric-mathison/wpforms-honeypot#readme",
+    "dependencies": {
+        "@semantic-release/changelog": "^6.0.1",
+        "@semantic-release/git": "^10.0.1",
+        "grunt": "^1.4.1",
+        "grunt-wp-i18n": "^1.0.3",
+        "load-grunt-tasks": "^5.1.0",
+        "semantic-release": "^19.0.2",
+        "semantic-release-plugin-update-version-in-files": "^1.1.0"
+    }
+}

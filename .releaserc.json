@@ -1,0 +1,35 @@
+{
+    "branches": "master",
+    "repositoryUrl": "https://github.com/eric-mathison/wpforms-honeypot",
+    "debug": "true",
+    "plugins": [
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator",
+        "@semantic-release/github",
+        [
+            "@semantic-release/changelog",
+            {
+                "changelogFile": "CHANGELOG.md"
+            }
+        ],
+        [
+            "semantic-release-plugin-update-version-in-files",
+            {
+                "files": ["wpforms-honeypot.php"],
+                "placeholder": "0.0.0-development"
+            }
+        ],
+        [
+            "@semantic-release/git",
+            {
+                "assets": [
+                    "package.json",
+                    "package-lock.json",
+                    "CHANGELOG.md",
+                    "wpforms-honeypot.php"
+                ],
+                "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+            }
+        ]
+    ]
+}
