@@ -2,7 +2,7 @@
 /**
  * Plugin Name: WPForms Honeypot
  * Description: Allows you to add a custom honeypot field to WPForms to help combat spam.
- * Version: 0.0.0-development
+ * Version: 1.0.0
  * Author: Eric Mathison
  * Text Domain: wpforms-honeypot
  * Domain Path: /languages
@@ -22,7 +22,7 @@ if ( !defined( 'ABSPATH' ) ) {
 }
 
 // Definitons.
-define( 'WPFORMS_HONEYPOT_VERSION' , '0.0.0-development' );
+define( 'WPFORMS_HONEYPOT_VERSION' , '1.0.0' );
 define( 'WPFORMS_HONEYPOT_CLASS', 'wpfhp-field' );
 
 /**
